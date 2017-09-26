@@ -19,7 +19,7 @@
       </v-list-tile>
     </v-list>
   </v-navigation-drawer>
-  <v-toolbar dark class="green darken-4">
+  <v-toolbar dark class="red darken-4">
     <v-toolbar-side-icon
       @click.stop="sideNav = !sideNav"
       class="hidden-sm-and-up"
@@ -49,14 +49,26 @@
   export default {
     data () {
       return {
-        sideNav: false,
-        menuItems: [
-          { icon: 'supervisor_account', title: 'View meetups', link: '/meetups' },
-          { icon: 'room', title: 'Organize meetup', link: '/meetups/new' },
-          { icon: 'person', title: 'Profile', link: '/user/profile' },
+        sideNav: false
+      }
+    },
+    computed: {
+      menuItems () {
+        let menuItems = [
           { icon: 'face', title: 'Sign up', link: '/signup' },
           { icon: 'lock_open', title: 'Sign in', link: '/signin' }
         ]
+        if (this.userIsAuthenticated) {
+          menuItems = [
+            { icon: 'supervisor_account', title: 'View meetups', link: '/meetups' },
+            { icon: 'room', title: 'Organize meetup', link: '/meetups/new' },
+            { icon: 'person', title: 'Profile', link: '/user/profile' }
+          ]
+        }
+        return menuItems
+      },
+      userIsAuthenticated () {
+        return this.$store.getters.user !== null && this.$store.getters.user !== undefined
       }
     }
   }

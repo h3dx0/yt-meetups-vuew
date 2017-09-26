@@ -33,12 +33,9 @@
 </template>
 <script>
   export default {
-    data () {
-      return {
-        meetups: [
-          { imageUrl: 'http://flyiteasy.com/wp-content/uploads/2014/10/Havana_Cuba.jpg', id: '1', title: 'Havana Meetup' },
-          { imageUrl: 'http://www.indiamike.com/files/images/57/97/51/buddha-park.jpg', id: '2', title: 'India Meetup' }
-        ]
+    computed: {
+      meetups () {
+        return this.$store.getters.featuredMeetups
       }
     },
     methods: {

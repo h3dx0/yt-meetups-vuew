@@ -11,9 +11,11 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
+    "firebase": "^4.3.1",
     "vue": "^2.4.1",
     "vue-router": "^2.3.1",
-    "vuetify": "^0.14.0"
+    "vuetify": "^0.15.7",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",
