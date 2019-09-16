@@ -11,16 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/h3dx0/make_save.sh",
-			"settings":
-			{
-				"buffer_size": 246,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "#!/bin/bash"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -62,15 +52,57 @@
 	},
 	"expanded_folders":
 	[
-		"/home/h3dx0/Study/VueJs/yt-meetup-vue",
-		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src",
-		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src/components",
-		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src/components/meetup",
-		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src/components/user",
-		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src/router"
+		"/home/h3dx0/Study/tlg_bot"
 	],
 	"file_history":
 	[
+		"/home/h3dx0/Dev/travertinos-web/travertinos/pedidos/pdf.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/settings.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/main/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/cargas_masivas/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/muestras/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/coms/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/notificaciones/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/pedidos/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/productos/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/visitas/views.py",
+		"/home/h3dx0/Dev/3m-web/tresm/main/views.py",
+		"/home/h3dx0/Dev/travertinos-web/travertinos/clientes/views.py",
+		"/home/h3dx0/Dev/contratar_musicos/contratar_musicos/musicos/views.py",
+		"/home/h3dx0/Dev/cienanos_web/cienanos_web/templates/index_ie.html",
+		"/home/h3dx0/Dev/cienanos_web/cienanos_web/settings.py",
+		"/home/h3dx0/Dev/contratar_musicos/contratar_musicos/main/views.py",
+		"/home/h3dx0/Documentos/Plantillas/themeforest-4106987-porto-responsive-html5-template/HTML/index-corporate-8.html",
+		"/home/h3dx0/Dev/cienanos_web/cienanos_web/static/js/validacionForm.js",
+		"/home/h3dx0/Dev/betterware-web/betterware/beneficios/urls.py",
+		"/home/h3dx0/public_html/red/index.html",
+		"/home/h3dx0/Dev/betterware-web/betterware/productos/urls.py",
+		"/home/h3dx0/Documentos/Plantillas/themeforest-4106987-porto-responsive-html5-template/HTML/index-corporate-hosting.html",
+		"/home/h3dx0/Documentos/Plantillas/themeforest-4106987-porto-responsive-html5-template/HTML/index-corporate-7.html",
+		"/home/h3dx0/.local/share/applications/sublime_text.desktop",
+		"/home/h3dx0/Dev/toefl-web/toefl_web/settings.py",
+		"/home/h3dx0/Dev/cienanos_web/cienanos_web/views.py",
+		"/home/h3dx0/Study/VueJs/Assignment/src/components/Server/ServerDetails.vue",
+		"/home/h3dx0/Study/VueJs/Assignment/src/components/Server/Servers.vue",
+		"/home/h3dx0/Study/VueJs/Assignment/src/components/Server/ServerItem.vue",
+		"/home/h3dx0/Study/VueJs/Assignment/index.html",
+		"/home/h3dx0/Dev/dgpay-web/dgpay/dashboard/utiles_dashboard.py",
+		"/home/h3dx0/Trabajo/BAC/proyecto/bac.sql",
+		"/home/h3dx0/Trabajo/Proboca/proyecto_V1/proboca.sql",
+		"/home/h3dx0/Dev/dgpay-web/dgpay/dashboard/views.py",
+		"/home/h3dx0/Dev/dgpay-web/dgpay/main/forms.py",
+		"/home/h3dx0/Dev/dgpay-web/dgpay/main/templates/registration/registration_form.html",
+		"/home/h3dx0/make_save.sh",
+		"/home/h3dx0/Dev/zonareal-web/zonareal/negocios/admin.py",
+		"/home/h3dx0/Dev/dgpay-web/dgpay/credentials.py",
+		"/home/h3dx0/Trabajo/Proboca/proboca.sql",
+		"/home/h3dx0/Dev/travertinos-planta-web/travertinosplanta/settings.py",
+		"/home/h3dx0/Dev/revlon-web/revlon/settings.py",
+		"/home/h3dx0/Dev/qrofind_web/qrofind_web/settings.py",
+		"/home/h3dx0/Dev/dreamit-web/dreamit/main/urls.py",
+		"/home/h3dx0/Dev/dreamit-web/dreamit/settings.py",
+		"/home/h3dx0/Dev/zonareal-web/zonareal/settings.py",
+		"/home/h3dx0/julian(2).sql",
 		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src/App.vue",
 		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src/router/index.js",
 		"/home/h3dx0/Study/VueJs/yt-meetup-vue/src/main.js",
@@ -98,6 +130,23 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pdf",
+			">\n",
+			"\"></",
+			"search domain",
+			"__in",
+			"in_",
+			"in",
+			"localhost",
+			"thumb",
+			"eas",
+			"DEFAULT_FILE_STORAGE",
+			"thumb",
+			"localhost/proboca",
+			"reicaso",
+			"index.php",
+			"localhost/wp_julian",
+			"localho",
 			"Home"
 		],
 		"highlight": true,
@@ -106,6 +155,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"webmasmas.com",
+			"reicasoftware.com",
+			"webmasmas.com/proboca",
+			"reicasoftware.com/julian"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -116,38 +169,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/h3dx0/make_save.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								127,
-								127
-							]
-						],
-						"settings":
-						{
-							"auto_name": "#!/bin/bash",
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -228,7 +251,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 218.0,
+	"side_bar_width": 143.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

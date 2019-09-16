@@ -2,114 +2,109 @@
   <v-container>
     <v-layout row>
       <v-flex xs12 offset-sm3>
-        <h4>Create a new Meetup</h4>
+        <h4>Alta de miembro</h4>
       </v-flex>
     </v-layout>
     <form @submit.prevent="onCreateMeetup">
       <v-layout row>
         <v-flex xs12 sm6 offset-sm3>
           <v-text-field
-            name="title"
-            label="Title"
-            id="title"
-            v-model="title"
-            required
+          name="title"
+          label="Empresa"
+          id="title"
+          v-model="title"
+          required
           ></v-text-field>
         </v-flex>
       </v-layout>
       <v-layout row>
         <v-flex xs12 sm6 offset-sm3>
           <v-text-field
-            name="location"
-            label="Location"
-            id="location"
-            v-model="location"
+          name="owner"
+          label="Nombre completo"
+          id="owner"
+          v-model="owner"
+          required
           ></v-text-field>
         </v-flex>
       </v-layout>
       <v-layout row>
         <v-flex xs12 sm6 offset-sm3>
           <v-text-field
-            name="imageUrl"
-            label="Image Url"
-            id="imageUrl"
-            v-model="imageUrl"
-            required
+          name="imageUrl"
+          label="Tarjeta Digital"
+          id="imageUrl"
+          v-model="imageUrl"
+          required
           ></v-text-field>
         </v-flex>
       </v-layout>
-      <v-layout row>
-        <v-flex xs12 sm6 offset-sm3>
-          <img :src="imageUrl" height="180px">
-        </v-flex>
-      </v-layout>
-
       <v-layout row>
         <v-flex xs12 sm6 offset-sm3>
           <v-text-field
-            name="description"
-            label="Description"
-            id="description"
-            multiLine
-            v-model="description"
-            required
+          name="imageUrl"
+          label="Teléfono"
+          id="imageUrl"
+          v-model="imageUrl"
+          required
           ></v-text-field>
         </v-flex>
       </v-layout>
       <v-layout row>
         <v-flex xs12 sm6 offset-sm3>
-          <h4>Choose a Date</h4>
-          <v-date-picker v-model="picker"></v-date-picker>
-        </v-flex>
-        <v-flex xs12 sm6 offset-sm3>
-          <h4>Choose  Time</h4>
-          <v-time-picker v-model="picker"></v-time-picker>
+          <v-text-field
+          name="imageUrl"
+          label="Correo electrónico"
+          id="imageUrl"
+          v-model="imageUrl"
+          required
+          ></v-text-field>
         </v-flex>
       </v-layout>
       <v-layout row>
         <v-flex xs12 sm6 offset-sm3>
           <v-btn
-            class="primary"
-            :disabled="!formIsValid"
-            type="submit"
-          >CREATE MEETUP
-          </v-btn>
-        </v-flex>
-      </v-layout>
-    </form>
-  </v-container>
+          block
+          class="primary"          
+          type="submit"
+          >GUARDAR
+        </v-btn>
+      </v-flex>
+    </v-layout>
+  </form>
+</v-container>
 </template>
 <script>
-  export default {
-    data () {
-      return {
-        title: '',
-        location: '',
-        imageUrl: '',
-        description: ''
+export default {
+  data () {
+    return {
+      title: '',
+      location: '',
+      imageUrl: '',
+      description: ''
+    }
+  },
+  computed: {
+    formIsValid () {
+      return this.title !== '' &&
+      this.location !== '' &&
+      this.imageUrl !== '' &&
+      this.description !== ''
+    }
+  },
+  methods: {
+    onCreateMeetup () {
+      const meetupData = {
+        id: '123344',
+        title: this.title,
+        location: this.location,
+        description: this.description,
+        imageUrl: this.imageUrl,
+        date: new Date()
       }
-    },
-    computed: {
-      formIsValid () {
-        return this.title !== '' &&
-          this.location !== '' &&
-          this.imageUrl !== '' &&
-          this.description !== ''
-      }
-    },
-    methods: {
-      onCreateMeetup () {
-        const meetupData = {
-          id: '123344',
-          title: this.title,
-          location: this.location,
-          description: this.description,
-          imageUrl: this.imageUrl,
-          date: new Date()
-        }
-        this.$store.dispatch('createMeetup', meetupData)
-        this.$router.push('/meetups')
-      }
+      this.$store.dispatch('createMeetup', meetupData)
+      this.$router.push('/meetups')
     }
   }
+}
 </script>
